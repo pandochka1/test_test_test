@@ -1,0 +1,51 @@
+.fhoto {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    padding: 20px;
+    border: 2px solid red;
+    width: 500px;
+    height: 400px;
+}
+
+.big {
+    width: 500px;
+    height: 282px;
+    border: 3px dotted royalblue;
+}
+.big img {
+    width: 100%;
+    height: 100%;
+}
+.small {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.small a img {
+    border: none;
+    width: 110px;
+    height: 80px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+/* .gallery{
+    display: none;
+} */
